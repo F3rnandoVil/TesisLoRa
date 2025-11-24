@@ -53,9 +53,9 @@ void setup() {
   
   // Set LoRa parameters for better communication
   LoRa.setTxPower(20);          // Set transmission power
-  LoRa.setSpreadingFactor(7);   // Set spreading factor (6-12)
-  LoRa.setSignalBandwidth(125E3); // Set bandwidth
-  LoRa.setCodingRate4(5);       // Set coding rate
+  LoRa.setSpreadingFactor(12);   // Set spreading factor (6-12)
+  LoRa.setSignalBandwidth(62.5E3); // Set bandwidth
+  LoRa.setCodingRate4(8);       // Set coding rate
   LoRa.setPreambleLength(8);    // Set preamble length
   LoRa.setSyncWord(0xF3);       // Set sync word
   
